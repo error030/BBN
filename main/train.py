@@ -31,7 +31,7 @@ def parse_args():
         "--cfg",
         help="decide which cfg to use",
         required=False,
-        default="../main/configs/cifar10.yaml",
+        default="../input/bbn103/configs/cifar10.yaml",
         type=str,
     )
     parser.add_argument(
